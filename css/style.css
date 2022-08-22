@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+    padding: 0;
+    margin: 0 ;
+}
+html{ 
+    font-size: 62.5%;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-size: 100%;
+}
+
+body{
+    background-color: aquamarine;
+    
+}
+
+
+.nav-1{
+    display: flex;
+    font-size: 4rem;
+    justify-content: space-between;
+    
+}
+
+.nav-2{
+    margin-right:27rem;
+    font-size: 4rem;
+}
+
+
+nav ul{
+    list-style: none;
+    margin-top: 2.5rem;
+    
+    
+}
+
+
+nav ul li{
+      display: inline-block;
+      margin-left: 5rem;
+      padding-top: 3.5rem;
+}
+
+nav ul a{
+    font-size: 4rem;
+    color: black;
+
+}
+
+ul li a:hover{
+    color: rgb(253, 127, 179);
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    
+}
+
+/*Aqui termina la configracion de el nav */
+
+header img{
+     width: 70%;
+     margin-top: 5rem;
+     border: solid;
+     float: none;
+         
+}
+
+
+.textos{
+    text-align-last: center;
+    
+}
+
+header{
+    text-align: center;
+}
+
+h1,h2,h3,h4{
+   font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+    text-align: center;
+}
+
+main section p{
+    color: black;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+    line-height: 2.2rem;
+    font-weight: 400;
+}
+
+.encuentraNuestroLocal{
+    text-align: center;
+    width: auto;
+    height:auto;
+  
+
+}
+
+.container{
+    display: flex;
+    
+}
+
+.img2{
+    justify-content: center;
+    
+     
+}
+
+/*Aqui comienza la configracion de el Login */
+
+.formularioLogin{
+    display: block;
+    text-align: center;
+    height: 10rem;
+    box-sizing: border-box;
+    margin: 2rem;
+
+}
+/*Aqui acomode manualmente para que los imput 
+y los textos que estan arriba quedaran centrados 
+pero al cambiar de resolucion todo se desordena dejo
+ esta nota para recordar sacarlo si es que necesito 
+ sacarlo dejare los comandos que use para modificarlo fueron la clase 
+
+ .contactCenter{
+    margin-left: 4rem;
+}
+y  en imputClass puse ( margin-left:76rem;). */
+
+
+.logParf{
+    margin-bottom: 2rem;
+    font-weight: bold;
+    color: black;
+    font-size: xx-large
+}
+
+.imputClass{
+    background-color: rgba(223, 140, 186, 0.349);
+    display: block;
+    width: 40rem;
+    margin: auto;
+    padding-left: 0.6251rem;
+    height: 5rem;
+    border: 1px solid rgb(7, 7, 7);
+    border-radius: 0.125rem;
+    color: black;
+    margin-bottom: 2rem;
+    border-top-left-radius: 0.625rem;
+    border-bottom-right-radius: 0.625rem;
+    font-size: 2rem;
+    outline: none;
+ 
+}
+
+
+
+.footerLogin {
+    position:absolute;
+    left: 168rem;
+    right: auto;
+    top: 5rem;
+    
+}
+
+footer a img{
+    width: 6rem;
+}
+
+.formContacto{
+    display: block;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 2rem;
+ 
+}
+
+
+.caja{
+    color: black;
+    font-weight: bold;
+    width: 48rem;
+    height: 15rem;
+    text-align: center;
+    margin: 1px; 
+    
+   
+}
+
+.flexContainer{
+    display: flex;
+    float: left;
+    
+}
+
+.imgProducto{
+    max-width: 35rem;
+    margin-top: 5rem;
+}
+
+/*Comienzo Sucursales*/
+/*Y Class reutilizables para bolsa de mercado*/
+
+.cajaLocal{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(223, 140, 185, 0.596);
+    height: 30rem;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 12rem;
+    border: solid;
+   
+    
+    
+}
+.cajaLocal p{ 
+    text-align: center;
+    justify-content: center;
+    align-items: flex-start;
+    width: 70rem;
+    margin-top:4.5rem;
+    font-weight: 600;
+  
+}
+
+.pCaja{
+    font-size: 12rem;
+    
+}
+
+
+/*Sobre Mi*/
+
+.contenedorGrid{
+    display: grid;
+    background-color: yellowgreen;
+    grid-template-areas: 
+                          "header header header"
+                          "footer footer footer"    
+                          
+                          "main main main";
+    border:solid;
+    
+}
+
+.contenedorGrid div{
+    background-color: aqua;
+    text-align: center;
+    color: black;
+    padding: 50px 50px 50px 50px;
+    border: 2px solid black;
+}
+
+.cajaUno{
+    width: sdad
+    
+   
+}
+
+.cajaDos{
+    grid-area: footer ;
+   
+}
+
+
+.cajaCuatro{
+    grid-area: main ;
+   
+}
+
+/*Termina Sobre mi*/
+
+/*Aqui se encuentra la page index*/
+
+.encuentraNuestroLocalsucursales{
+    text-align: center;
+    justify-content: center;
+    
+}
+
+/*Bolsa De Mercado*/
+
+.parrafoBolsa{
+    margin-top: 5rem;
+    font-size: 6rem;
+    
+}
+
+/*Tienda*/
+
+.configuracionDiv{
+    background-color: rgba(223, 140, 185, 0.596);
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+    
+}
+
+.configuracionBoton{
+    background-color:rgba(47, 236, 236, 0.63);
+    font-size: 2rem;
+    color:black;
+    margin-top: 1rem;
+    margin-right: 12rem;
+    border-radius: 9rem;
+    border: 0.1rem solid rgb(116, 113, 113);
+    
+}
+
+.listadoDeproductos{
+    background-color:rgba(223, 140, 185, 0.596);
+    padding: 1rem;
+    line-height: 8rem;
+    
+
+}
+
+.contenedorDeproductos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 3.5rem;
+    box-shadow: 0px 0px 10px 10px black;
+   
+    
+}
+
+.cajaProductos{
+    box-shadow: 0px 0px 5px 0.5px black;
+    padding: 1rem;
+    text-align: center;
+    width: 30rem;
+    height: auto;
+    margin: 2rem;
+    border: 0.1rem solid black;
+    border-radius: 2rem;
+    background-color: rgba(223, 140, 185, 0.596);
+    
+    
+}
+
+.cajaProductos{
+    height: 30rem;
+    width: 30rem;
+    
+}
+
+.cajaDeimagen img{
+    object-fit: cover;
+    width: 30rem;
+    height: 18rem;
+    margin-top: 1rem;
+    border-radius: 2rem;
+}
+
+.caracteristicasProducto{
+    margin: 2rem;
+    font-size: 80rem;
+    
+}
+
+.caracteristicasProducto p{
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.botonDecaja{
+    background-color: rgba(47, 236, 236, 0.63);
+    color: black;
+    border-radius: 0.5rem;
+    width: 14rem;
+    height: 2.2rem;
+}
+
+section div ul li:hover{
+    color: rgb(106, 250, 255);
+}
+
+/*mapa de local principal de el index*/
+.iFameIndex{
+     width:100%; 
+     height:30rem;
+     
+} 
+
+
+

@@ -238,42 +238,14 @@ footer a img{
 
 /*Sobre Mi*/
 
-.contenedorGrid{
-    display: grid;
-    background-color: yellowgreen;
-    grid-template-areas: 
-                          "header header header"
-                          "footer footer footer"    
-                          
-                          "main main main";
-    border:solid;
+
+
+.pSobremi{
+    font-size: 2rem;
     
 }
 
-.contenedorGrid div{
-    background-color: aqua;
-    text-align: center;
-    color: black;
-    padding: 50px 50px 50px 50px;
-    border: 2px solid black;
-}
 
-.cajaUno{
-    width: sdad
-    
-   
-}
-
-.cajaDos{
-    grid-area: footer ;
-   
-}
-
-
-.cajaCuatro{
-    grid-area: main ;
-   
-}
 
 /*Termina Sobre mi*/
 
@@ -342,8 +314,7 @@ footer a img{
     border: 0.1rem solid black;
     border-radius: 2rem;
     background-color: rgba(223, 140, 185, 0.596);
-    
-    
+   
 }
 
 .cajaProductos{
@@ -384,6 +355,7 @@ section div ul li:hover{
 }
 
 /*mapa de local principal de el index*/
+
 .iFameIndex{
      width:100%; 
      height:30rem;

@@ -24,7 +24,7 @@
             <a href="./index.html">
                 <img src="./img/Logos/7660841192_72ac0990-29c7-4ab1-9e0c-9a6dcd6ca68e.png">
             </a>
-            <ul>
+            <ul class="nav2">
                 <li>
                     <a href="./Log-in.html" >Log in</a>
                 </li>
@@ -36,29 +36,31 @@
                 </li>
             </ul>
         </nav>
-    <main class="contactCenter">
-        <h1>Contacto:</h1>
-        <h2>Contactanos al numero</h2>
-        <h3>Telefono:111-222-333</h3>
-        <h4>Email: PasteleriaTorres@hotmail.com </h4>
-        <section></section>
-        <section></section>
-    </main>
-    <form class="formContacto"><!--esto seria en el caso de que quisieramos guardar algun dato que el usuario digite ya que html no puede guardar datos--> 
-        <label for="Nombre"></label>
-        <input type="text" id="Nombre"placeholder="Ingrese su nombre" class="imputClass">
-        <label for="Email"></label>
-        <input type="text" id="Email"placeholder="Ingrese su email"class="imputClass">
-        <label for="Telefono"></label>
-        <input type="text" id="Telefono"placeholder="Ingrese su telefono"class="imputClass">
-        <div>
-            <label for="Comentario"></label>
-                <textarea name="" id="" cols="30" rows="10" placeholder="Dejanos un mensaje" class="imputClass" ></textarea >
-                <input type="reset" value="Cancelar" class="imputClass">
-                <input type="submit" value="Enviar" class="imputClass"> 
-            </div>
-        </form>
-      <footer class="footerLogin">
+            <main id="asideContacto" >
+                <h1>Contacto:</h1>
+                <h2>Contactanos al numero</h2>
+                <h3>Telefono:111-222-333</h3>
+                <h4>Email: PasteleriaTorres@hotmail.com </h4>
+                <section></section>
+                <section></section>
+            </main>
+            <aside id="mainContacto" > 
+                <form ><!--esto seria en el caso de que quisieramos guardar algun dato que el usuario digite ya que html no puede guardar datos--> 
+                    <label for="Nombre"></label>
+                    <input type="text" id="Nombre"placeholder="Ingrese su nombre" class="imputClass">
+                    <label for="Email"></label>
+                    <input type="text" id="Email"placeholder="Ingrese su email"class="imputClass">
+                    <label for="Telefono"></label>
+                    <input type="text" id="Telefono"placeholder="Ingrese su telefono"class="imputClass">
+                    <div>
+                        <label for="Comentario"></label>
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Dejanos un mensaje" class="imputClass" ></textarea >
+                            <input type="reset" value="Cancelar" class="imputClass">
+                            <input type="submit" value="Enviar" class="imputClass"> 
+                        </div>
+                    </form>
+                </aside>
+      <footer class="footerLogin" id="footer">
     <a href="https://www.instagram.com/" target="_blank">
         <img src="./img/instagram fondant.png" alt="Seguinos En Instagram">
        </a> 
@@ -69,7 +71,7 @@
            <img src="./img/face fondant.png" alt="Siguenos en Facebook">
        </a>
    </footer>
-  </div>
+   </div>
  <!-- </footer> -->
 </body> 
 </html>

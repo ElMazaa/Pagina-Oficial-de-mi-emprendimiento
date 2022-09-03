@@ -61,7 +61,12 @@ nav ul a{
 
 ul li a:hover{
     color: rgb(253, 127, 179);
+    transform: rotateZ(-6deg);
+    transition: transform 0.2s;
+
+    
 }
+ 
 
 nav ul li a{
     text-decoration: none;
@@ -69,6 +74,10 @@ nav ul li a{
     
 }
 
+nav ul li a:hover{
+    transform: rotateZ(-6deg);
+    transition: transform 0.2s;
+}
 /*Aqui termina la configracion de el nav */
 
 .sobreMiSection{
@@ -434,6 +443,14 @@ section{
     border-radius: 0.5rem;
     width: 14rem;
     height: 2.2rem;
+    
+}
+
+.cajaProductos:hover{
+    filter: opacity(10);
+    transform: scale(1.5);
+    
+
 }
 
 section div ul li:hover{
@@ -752,3 +769,28 @@ section div ul li:hover{
     } 
 
 } 
+/* Animacion d eletras en el index*/
+
+.pHeaderindex{
+    flex-wrap: wrap;
+    display: block;
+    font-size: 4rem;
+    font-weight: 200;
+    font-family: 'Dancing Script';
+    white-space: nowrap;
+    margin: 0 auto;
+    width: 29ch;
+
+animation: typing 3s steps(29), blink .10s infinite step-end alternate;
+overflow:hidden;
+}
+
+@keyFrames typing {
+
+from { width: 0}
+}
+
+@keyFrames blink {
+ 50% { border-color: transparent}
+
+}

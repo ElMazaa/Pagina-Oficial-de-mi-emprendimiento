@@ -1,13 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
+*{
+    font-family: 'Dancing Script';
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
 
 /* Comienza configuracion de la nav-bar*/
-.navbar-light .navbar-nav .nav-link{
+
+
+ .navbarColor a{
     color: black;
     font-family: 'Dancing Script';
     font-weight: 600;
     font-size: 2rem;
     margin: 0.10rem;
+}
+
+.navmarginAuto{
+  margin-right: auto;
+  margin-left: auto;
+   
+}
+
+
+
+.botonHamburgesa{
+    object-fit: cover;
+    width:80px;
+    height:auto;
 }
 
 /* Termina configuracion de la nav-bar*/
@@ -60,6 +83,228 @@
 
 /*Aqui termina mi galerai de fotos de el index*/
 
+
+
+/* Aqui comienza la pagina Sobre mi */
+
+.mainSobremi{
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+ 
+}
+
+.mainSobremiCenter {
+    justify-content: center;
+    text-align: center;
+     
+}
+
+/* Aqui termina la pagina Sobre mi */
+
+
+/* comienza la tienda */
+
+/*img de el carrusel */
+header  img{
+    object-fit: cover;
+    width: 25rem;
+    height: 35rem;
+    
+}
+/*img de el carrusel fin*/
+
+/*Carrusel*/
+.carruselConfig{
+    display: block;
+    width: 100%;
+    font-size:2rem;
+
+}
+
+/* Filtros de la tienda*/
+.cajaFiltros{
+    padding: 0.1rem;
+    border: solid rgb(231, 114, 133) 5px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    background-color: rgba(255, 192, 203, 0.315);
+
+}
+.asideConfigfiltros{
+    margin-top: 3rem;
+    text-align: center;
+    
+}
+
+.asideConfigfiltrosF{
+    display: flex;
+    justify-content: center;
+}
+/* fin de los filtros de la tienda */
+
+/* Comienza configuraciones de la tienda */
+
+.mainDetienda{
+    display: block;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 3rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.classBootomTienda{
+    text-align: center;
+    color: black;
+    padding: 0.5rem;
+    border: solid rgb(231, 114, 133) 0.20rem;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: rgba(255, 192, 203, 0.315);
+    text-decoration: none;
+    
+}
+.classBootomTienda:hover{
+    color:black;
+}
+
+.classBoxCard{
+    background-color: rgba(248, 167, 181, 0.411) ;
+    width: 18rem;
+    height: auto;
+    border-radius:8% ;
+
+}
+
+/* Fin de la tienda */
+
+/* Inicia contacto pagina (formulario) */
+
+.classBootomcontacto{
+    text-align: center;
+    color: black;
+    padding: 0.5rem;
+    border: solid rgb(231, 114, 133) 0.20rem;
+    font-size: 1.2rem;
+    font-weight: 900;
+    background-color: rgba(255, 192, 203, 0.315);
+    text-decoration: none;
+    border-radius:25%
+
+}
+
+.imgResponsiveForm{
+    width: 100% ;
+    height: 100%;
+    border-radius: 1rem 0 0 1rem;
+}
+
+.classForm{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-size: 1.4rem; 
+    font-weight: 500;
+    border-radius: 1rem 0 0 1rem;
+}
+
+.borderForm{
+    border-radius: 3%;
+}
+
+/* Termina contacto pagina (formulario) */
+
+
+/* Sucursales page */
+
+.containerSucursales{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+   
+} 
+.cajaLocal{
+  background-color: rgba(223, 140, 185, 0.596);
+  width: 100%;
+  border: solid;
+  margin-top: 5rem;
+  text-align: center;
+}
+.cajaLocal p{
+  font-weight: 900;
+  font-family: 'Dancing Script';
+  font-size: 2.9rem;
+ 
+}
+
+.pCaja{
+  font-size: 4rem;
+  font-weight: 900;
+  font-family: 'Dancing Script';
+  
+}
+
+.hHorarios{
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: 'Dancing Script';
+
+}
+/* fin de Sucursales page */
+
+
+/* inicia Login pagina  */
+
+.classBootomcontacto{
+    text-align: center;
+    color: black;
+    padding: 0.5rem;
+    border: solid rgb(231, 114, 133) 0.20rem;
+    font-size: 1.2rem;
+    font-weight: 900;
+    background-color: rgba(255, 192, 203, 0.315);
+    text-decoration: none;
+    border-radius:25%
+
+}
+
+.imgResponsiveForm{
+    width: 100% ;
+    height: 100%;
+    border-radius: 1rem 0 0 1rem;
+}
+
+.classForm{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-size: 1.5rem; 
+    font-weight: 500;
+    border-radius: 1rem 0 0 1rem;
+}
+
+.borderForm{
+    border-radius: 3%;
+}
+
+.colorLink{
+    color: #535252;
+    text-decoration: none;
+}
+
+.colorLink:hover{
+    color: rgb(253, 141, 159);
+}
+
+.classFs{
+    font-size: 1.5rem;
+}
+
+
+/* Termina Login pagina  */
+
 /*Configuracion de h1 de el index*/
 /*mapa de local principal de el index*/
 
@@ -77,8 +322,51 @@
     
 } 
 
-
 /*Fin de el mapa de local principal de el index*/
+
+/* Inicio de el Footer */
+
+.footerClass{
+    align-items: center;
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+    
+}
+
+.footerClassSombreadocopy{
+    align-items: center;
+    text-align: center;
+    color: 	#3d3c3c;
+    font-size: 1.8rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgba(32, 32, 32, 0.2);
+    text-decoration: none;
+}
+.footerClassSombreadocopyLink{
+    align-items: center;
+    text-align: center;
+    color: 	#3d3c3c;
+    font-size: 1.8rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+
+}
+
+.footerClassSombreadocopyLink:hover{
+    color: 	#3d3c3c;
+}
+
+.footerClass a img{
+    width: 5rem;
+    height: auto;
+}
+
+
+
+/*fin de Footer */
+
+
 
 /* Animacion d eletras en el index*/
 
@@ -108,60 +396,10 @@ from { width: 0}
 
 /*fin de animaciones de el index por que me cortan el responsive */
 
-/* Configuracion de la foto de el footer */
 
-footer a img{
-    width: 5rem;
-}
-/* Configuracion de la foto de el footer fin */
 
-header img{
-    
-    object-fit: cover;
-    width: 25rem;
-    height: 35rem;
-    
-}
-/* comienza la tienda */
 
-/* Sucursales page */
-
-.containerSucursales{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-   
-} 
-.cajaLocal{
-  background-color: rgba(223, 140, 185, 0.596);
-  width: 100%;
-  border: solid;
-  margin-top: 5rem;
-  
-  text-align: center;
-}
-.cajaLocal p{
-  font-weight: 900;
-  font-family: 'Dancing Script';
-  font-size: 2.9rem;
  
-}
-
-.pCaja{
-  font-size: 4rem;
-  font-weight: 900;
-  font-family: 'Dancing Script';
-  
-}
-
-.hHorarios{
-    font-size: 3rem;
-    font-weight: 900;
-    font-family: 'Dancing Script';
-
-}
-/* fin de Sucursales page */ 
 
 /* animaciones */
 
@@ -176,7 +414,10 @@ ul li a:hover{
 
 }
 
-
+.navbarColor a:hover{
+    color: rgb(253, 141, 159);
+      
+ } 
 
 /*Aqui comienza el carrito de compras */
 

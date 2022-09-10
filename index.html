@@ -15,16 +15,18 @@
   </head>
   <body background="./img/Fondos/dulces-tortas-bollos-patrones-fisuras_101660-680.jpg">
     <!-- Aqui inicia la Nav-Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light fs-5 ">
+    <nav class="navbar navbar-expand-lg navbarColor ">
         <div class="container-fluid">
           <a class="navbar-brand d-lg-none " href="index.html">
             <img  src="./img/Logos/7660841192_72ac0990-29c7-4ab1-9e0c-9a6dcd6ca68e.png" alt="logo de mi pagina"> 
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span>
+              <img class="botonHamburgesa" src="./img/boton hamburgesa/Imagen1.png" alt=" boton hamburgesa">
+            </span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto mb-2 mb-lg-0 mx-auto ">
+            <ul class="navbar-nav ml-auto mb-2 mb-lg-0 navmarginAuto">
 
               <li class="nav-item">
                 <a class="nav-link " aria-current="page" href="./Sobre_mi.html">Sobre mi</a>
@@ -38,7 +40,7 @@
             </ul>
                 
               <a class="navbar-brand text-hide d-none d-lg-block animationImg" href="index.html">
-                <img  src="./img/Logos/7660841192_72ac0990-29c7-4ab1-9e0c-9a6dcd6ca68e.png" alt="logo de mi pagina"> 
+                <img src="./img/Logos/7660841192_72ac0990-29c7-4ab1-9e0c-9a6dcd6ca68e.png" alt="logo de mi pagina"> 
               </a>
 
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 mx-auto">
@@ -60,11 +62,11 @@
       
       <!-- Aqui termina la Nav-Bar -->
       
-      <header id="header">
+      <header>
         <h1 class="h1Headerindex">Algunos de nustros productor</h1>
     </header>
 
-    <aside id="asideGaleria">
+    <aside>
          <div id="containerGridgaleria">
             <div class="gridFoto columna3"  style="background-image: url('https://www.infobae.com/new-resizer/0rJ54A70pfTesyvitgEDxBkW__I=/992x558/filters:format(webp):quality(85)/s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2018/05/12153328/gastronomia-patisserie-destacada.jpg')"></div>
             <div class="gridFoto " style="background-image: url('https://img.freepik.com/fotos-premium/pasteleria-expositor-vidrio-seleccion-pasteles_109285-5233.jpg?w=2000')"></div>
@@ -86,22 +88,24 @@
          </div>
     </aside>
 
-    <main>
+     <main>
         <section>
             <h2 class="h1Headerindex" >Encuentranos en nuestro Local principal en: </h2>  
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12092.514274609497!2d-74.0307786!3d40.7371964!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1914d460e14d2760!2sPasteler%C3%ADa%20de%20Carlo!5e0!3m2!1ses!2suy!4v1661727902525!5m2!1ses!2suy"  class="iFrameIndex" style="border: 5px; text-align: center;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
     </main >
 
-      <footer class=" text-center text-white">
-        <!-- Grid container -->
+<!--  Aqui Comienza el footer  -->
+
+      <footer class=" footerClass">
+        <!-- Contenedor Grid -->
         <div class="container p-4 pb-0">
-          <!-- Section: Social media -->
-          <section class="mb-4">
+          <!-- Section: redes sociales  -->
+          <section>
 
             <!-- Instagram -->
             <a
-              class="btn text-white btn-floating m-1"
+              class="btn btn-floating "
               href="https://www.instagram.com/" target="_blank">
                 <img src="./img/instagram fondant.png" alt="Seguinos En Instagram">
                </a> 
@@ -109,7 +113,7 @@
 
             <!-- Twitter -->
             <a
-            class="btn text-white btn-floating m-1"
+            class="btn btn-floating"
              href="https://twitter.com/home?lang=es" target="_blank">
                <img src="./img/twiter fondant.png" alt="Siguenos en twitter">
               </a>
@@ -117,7 +121,7 @@
               
             <!-- Facebook -->
             <a
-              class="btn text-white btn-floating m-1"
+              class="btn btn-floating"
                href="https://www.facebook.com/" target="_blank">
                 <img src="./img/face fondant.png" alt="Siguenos en Facebook">
              </a>
@@ -125,16 +129,17 @@
           </section>
           <!-- Section: Redes sociales -->
         </div>
-        <!-- Grid container -->
+        <!-- contenedor Grid -->
       
         <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        <div class="footerClassSombreadocopy" >
           © 2022 Copyright:
-          <a class="text-white" href="https://www.coderhouse.com.uy/" target="_blank">coderhouse.com</a> 
+          <a class="footerClassSombreadocopyLink" href="https://www.coderhouse.com.uy/" target="_blank">Coderhouse.com</a> 
         </div>
         <!-- Copyright -->
       </footer>
-
+        
+     <!--  Aqui Termina el footer  -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

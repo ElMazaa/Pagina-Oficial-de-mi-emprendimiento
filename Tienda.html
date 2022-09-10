@@ -15,17 +15,19 @@
   </head>
   <body background="./img/Fondos/dulces-tortas-bollos-patrones-fisuras_101660-680.jpg">
     <!-- Aqui inicia la Nav-Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light fs-5 ">
+    <nav class="navbar navbar-expand-lg navbarColor ">
       <div class="container-fluid">
         <a class="navbar-brand d-lg-none " href="index.html">
           <img  src="./img/Logos/7660841192_72ac0990-29c7-4ab1-9e0c-9a6dcd6ca68e.png" alt="logo de mi pagina"> 
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <span>
+            <img class="botonHamburgesa" src="./img/boton hamburgesa/Imagen1.png" alt=" boton hamburgesa">
+          </span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto mb-2 mb-lg-0 mx-auto ">
-
+          <ul class="navbar-nav ml-auto mb-2 mb-lg-0 navmarginAuto">
+ 
             <li class="nav-item">
               <a class="nav-link " aria-current="page" href="./Sobre_mi.html">Sobre mi</a>
             </li>
@@ -38,7 +40,7 @@
           </ul>
               
             <a class="navbar-brand text-hide d-none d-lg-block animationImg" href="index.html">
-              <img  src="./img/Logos/7660841192_72ac0990-29c7-4ab1-9e0c-9a6dcd6ca68e.png" alt="logo de mi pagina"> 
+              <img src="./img/Logos/7660841192_72ac0990-29c7-4ab1-9e0c-9a6dcd6ca68e.png" alt="logo de mi pagina"> 
             </a>
 
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0 mx-auto">
@@ -57,9 +59,11 @@
         </div>
       </div>
     </nav>
-      <!-- Aqui termina la Nav-Bar -->
+    
+    <!-- Aqui termina la Nav-Bar -->
+
          <!-- Aqui Comienza el carrusel -->
-     <header>
+     <header class="carruselConfig">
 
        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
          <div class="carousel-indicators">
@@ -69,22 +73,22 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active ">
-            <img src="img/Carrusel/cannoli_1200x800.jpg" class="d-block w-100" alt="Canolis">
+            <img src="img/Carrusel/cannoli_1200x800.jpg" class="carruselConfig" alt="Canolis">
             <div class="carousel-caption d-none d-md-block">
               <p >Canolis de crema con frutos</p>
               <p >Una de las resetas familiares mas viejas y con el mejor sabor que encontraras </p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="img/Carrusel/Katrina-Sweet-and-Confectionery-1024x388.jpg" class="d-block w-100" alt="Alfajores">
+            <img src="img/Carrusel/Katrina-Sweet-and-Confectionery-1024x388.jpg" class="carruselConfig" alt="Alfajores">
             <div class="carousel-caption d-none d-md-block">
               <p >Alfajores con frutales</p>
               <p >Alfajores deliciosos con todo tipo de frutas y rellenos.</p>
             </div>
           </div> 
-          <div class="carousel-item text-black ">
-            <img src="img/Carrusel/1037938.jpg" class="d-block w-100" alt="Torta Torres">
-            <div class="carousel-caption d-none d-md-block text-black">
+          <div class="carousel-item">
+            <img src="img/Carrusel/1037938.jpg" class="carruselConfig" alt="Torta Torres">
+            <div class="carousel-caption d-none d-md-block ">
               <p >Tarta torres<p>
                 <p >Una tarta unica, con una reseta unica echa por mi </p>
               </div>
@@ -108,36 +112,36 @@
 
 <!-- Aqui empieza a la tienda primero los filtros  -->
 
-<aside >
-  <div class="container text-center my-4">
-    <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3  d-flex justify-content-center ">
+<aside class="asideConfigfiltros" >
+  <div class="container ">
+    <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3 asideConfigfiltrosF ">
       <div class="col">
-        <div class="p-3  animationImg rounded-pill border border-danger bg-light animation">Tortas</div>
+        <div class="cajaFiltros animationImg rounded-pill">Tortas</div>
       </div>
       <div class="col">
-        <div class="p-3  animationImg rounded-pill border border-danger bg-light animation">Tartas</div>
+        <div class="cajaFiltros animationImg rounded-pill">Tartas</div>
       </div>
       <div class="col">
-        <div class="p-3  animationImg rounded-pill border border-danger bg-light animation">Galletas</div>
+        <div class="cajaFiltros animationImg rounded-pill">Galletas</div>
       </div>
       <div class="col">
-        <div class="p-3  animationImg rounded-pill border border-danger bg-light animation ">Masitas</div>
+        <div class="cajaFiltros animationImg rounded-pill">Masitas</div>
       </div>
     </div>
 
-     <div class="container text-center my-4 ">
-    <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3 d-flex justify-content-center">
+     <div class="container asideConfigfiltros">
+    <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3 asideConfigfiltrosF">
       <div class="col">
-        <div class="p-3 animationImg rounded-pill border border-danger bg-light animation">Postres</div>
+        <div class="cajaFiltros animationImg rounded-pill">Postres</div>
       </div>
       <div class="col">
-        <div class="p-3 animationImg rounded-pill border border-danger bg-light animation">Alfajores</div>
+        <div class="cajaFiltros animationImg rounded-pill">Alfajores</div>
       </div>
       <div class="col">
-        <div class="p-3 animationImg rounded-pill border border-danger bg-light animation">Donas</div>
+        <div class="cajaFiltros animationImg rounded-pill">Donas</div>
       </div>
       <div class="col">
-        <div class="p-3 animationImg rounded-pill border border-danger bg-light animation">Muffins</div>
+        <div class="cajaFiltros animationImg rounded-pill">Muffins</div>
       </div>
     </div>
   </div>
@@ -149,212 +153,212 @@
   
        <!-- aqui Empieza la tienda -->
 
-       <main class="py-3">
+       <main class="mainDetienda">
         <div class="container-fluid">
-          <div class="row ">
-            <article class="col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center p-5 ">
+          <div class="row">
+            <article class="col-sm-12 col-md-6 col-lg-3  mainDetienda">
               
-             <div class="card text-center rounded-start border border-danger " style="width: 18rem;">
-              <img src="./img/Productos/cookies-americanas-640x345.jpg" alt="Producto " class="animationImg rounded-3" >
-               <div class="card-body">
-                 <h2 class="card-title fs-5">Galletas americanas</h2>
-                 <p class="card-text text-center">$150</p>
-                 <a href="#" class="btn btn-primary">Agregar a mi carrito</a>
+             <div class="card classBoxCard ">
+              <img src="./img/Productos/cookies-americanas-640x345.jpg" alt="Producto " class="animationImg" >
+               <div class="card-body ">
+                 <h2 class="card-title">Galletas americanas</h2>
+                 <p class="card-text ">$150</p>
+                 <a href="#" class="classBootomTienda rounded-pill ">Agregar a mi carrito</a>
                </div>
              </div>
           
            </article>
 
-           <article class="col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center p-5 ">
+           <article class="col-sm-12 col-md-6 col-lg-3 mainDetienda  ">
               
-            <div class="card text-center rounded-start border border-danger" style="width: 18rem;">
-              <img src="./img/Productos/Cookis.jpg" alt="Producto" class="animationImg rounded-3">
+            <div class="card classBoxCard" >
+              <img src="./img/Productos/Cookis.jpg" alt="Producto" class="animationImg ">
               <div class="card-body">
-                <h2 class="card-title fs-5">Galletas rellenas</h2>
-                <p class="card-text text-center">$200</p>
-                <a href="#" class="btn btn-primary">Agregar a mi carrito</a>
+                <h2 class="card-title ">Galletas rellenas</h2>
+                <p class="card-text">$200</p>
+                <a href="#" class="classBootomTienda rounded-pill">Agregar a mi carrito</a>
               </div>
             </div>
             
           </article>
 
-          <article class="col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center p-5 ">
+          <article class="col-sm-12 col-md-6 col-lg-3 mainDetienda">
               
-            <div class="card  text-center rounded-start border border-danger" style="width: 18rem;">
-              <img src="./img/Productos/Galletas de avena con cocolate.jpg" alt="Producto" class="animationImg rounded-3">
+            <div class=" card classBoxCard " >
+              <img src="./img/Productos/Galletas de avena con cocolate.jpg" alt="Producto" class="animationImg ">
               <div class="card-body">
-                <h2 class="card-title fs-5">Galletas american avena</h2>
+                <h2 class="card-title ">Galletas american avena</h2>
                 <p class="card-text text-center">$150</p>
-                <a href="#" class="btn btn-primary">Agregar a mi carrito</a>
+                <a href="#" class="classBootomTienda rounded-pill">Agregar a mi carrito</a>
               </div>
             </div>
             
           </article>
 
-          <article class="col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center p-5">
+          <article class="col-sm-12 col-md-6 col-lg-3 mainDetienda">
               
-            <div class="card text-center rounded-start border border-danger" style="width: 18rem;">
-              <img src="./img/Productos/galletas-cookies-americanas-1.jpg" alt="Producto" class="animationImg rounded-3">
+            <div class="card classBoxCard">
+              <img src="./img/Productos/galletas-cookies-americanas-1.jpg" alt="Producto" class="animationImg ">
               <div class="card-body">
-                <h2 class="card-title fs-5">Galletas chocoavena</h2>
-                <p class="card-text text-center">$170</p>
-                <a href="#" class="btn btn-primary">Agregar a mi carrito</a>
+                <h2 class="card-title ">Galletas chocoavena</h2>
+                <p class="card-text ">$170</p>
+                <a href="#" class="classBootomTienda rounded-pill">Agregar a mi carrito</a>
               </div>
             </div>
             
           </article>
 
-          <article class="col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center p-5">
+          <article class="col-sm-12 col-md-6 col-lg-3 mainDetienda">
               
-            <div class="card text-center rounded-start border border-danger" style="width: 18rem;">
-              <img src="./img/Productos/cupcake.jpg" alt="Producto" class="animationImg rounded-3">
+            <div class="card classBoxCard">
+              <img src="./img/Productos/cupcake.jpg" alt="Producto" class="animationImg ">
               <div class="card-body">
-                <h2 class="card-title fs-5">cupcake de frutas</h2>
-                <p class="card-text text-center">$80</p>
-                <a href="#" class="btn btn-primary">Agregar a mi carrito</a>
+                <h2 class="card-title ">cupcake de frutas</h2>
+                <p class="card-text ">$80</p>
+                <a href="#" class="classBootomTienda rounded-pill">Agregar a mi carrito</a>
               </div>
             </div>
             
           </article>
 
-          <article class="col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center p-5">
+          <article class="col-sm-12 col-md-6 col-lg-3 mainDetienda">
               
-            <div class="card text-center rounded-start border border-danger" style="width: 18rem;">
-              <img src="./img/Productos/cupcakes-cumpleanos4.jpg" alt="Producto" class="animationImg rounded-3">
+            <div class="card classBoxCard">
+              <img src="./img/Productos/cupcakes-cumpleanos4.jpg" alt="Producto" class="animationImg ">
               <div class="card-body">
-                <h2 class="card-title fs-5">cupcakes-cumpleanos</h2>
-                <p class="card-text text-center">$500</p>
-                <a href="#" class="btn btn-primary">Agregar a mi carrito</a>
+                <h2 class="card-title ">cupcakes-cumpleanos</h2>
+                <p class="card-text ">$500</p>
+                <a href="#" class="classBootomTienda rounded-pill">Agregar a mi carrito</a>
               </div>
             </div>
             
           </article>
 
-          <article class="col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center p-5">
+          <article class="col-sm-12 col-md-6 col-lg-3 mainDetienda">
               
-            <div class="card text-center rounded-start border border-danger" style="width: 18rem;">
-              <img src="./img/Productos/Muffins-de-frambuesaa.jpg" alt="Producto" class="animationImg rounded-3">
+            <div class="card classBoxCard">
+              <img src="./img/Productos/Muffins-de-frambuesaa.jpg" alt="Producto" class="animationImg ">
               <div class="card-body">
-                <h2 class="card-title fs-5">upcake de frutas</h2>
-                <p class="card-text text-center">$80</p>
-                <a href="#" class="btn btn-primary">Agregar a mi carrito</a>
+                <h2 class="card-title ">upcake de frutas</h2>
+                <p class="card-text ">$80</p>
+                <a href="#" class="classBootomTienda rounded-pill">Agregar a mi carrito</a>
               </div>
             </div>
             
           </article>
 
-          <article class="col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center p-5">
+          <article class="col-sm-12 col-md-6 col-lg-3 mainDetienda">
               
-            <div class="card text-center rounded-start border border-danger" style="width: 18rem;">
-              <img src="./img/Productos/donas-caseras.jpg" alt="Producto" class="animationImg rounded-3">
+            <div class="card classBoxCard">
+              <img src="./img/Productos/donas-caseras.jpg" alt="Producto" class="animationImg ">
               <div class="card-body">
-                <h2 class="card-title fs-5">Donas</h2>
-                <p class="card-text text-center">$250</p>
-                <a href="#" class="btn btn-primary">Agregar a mi carrito</a>
+                <h2 class="card-title ">Donas</h2>
+                <p class="card-text ">$250</p>
+                <a href="#" class="classBootomTienda rounded-pill">Agregar a mi carrito</a>
               </div>
             </div>
             
           </article>
 
-          <article class="col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center p-5">
+          <article class="col-sm-12 col-md-6 col-lg-3 mainDetienda">
               
-            <div class="card text-center rounded-start border border-danger" style="width: 18rem;">
-              <img src="./img/Productos/donassss.jpg" alt="Producto" class="animationImg rounded-3">
+            <div class="card classBoxCard">
+              <img src="./img/Productos/donassss.jpg" alt="Producto" class="animationImg ">
               <div class="card-body">
-                <h2 class="card-title fs-5">Donas glaceadas</h2>
+                <h2 class="card-title ">Donas glaceadas</h2>
                 <p class="card-text text-center">$270</p>
-                <a href="#" class="btn btn-primary">Agregar a mi carrito</a>
+                <a href="#" class="classBootomTienda rounded-pill">Agregar a mi carrito</a>
               </div>
             </div>
             
           </article>
 
-          <article class="col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center p-5">
+          <article class="col-sm-12 col-md-6 col-lg-3 mainDetienda">
               
-            <div class="card text-center rounded-start border border-danger" style="width: 18rem;">
-              <img src="./img/Productos/pasteles.jpg" alt="Producto" class="animationImg rounded-3">
+            <div class="card classBoxCard">
+              <img src="./img/Productos/pasteles.jpg" alt="Producto" class="animationImg ">
               <div class="card-body">
-                <h2 class="card-title fs-5">torta de fruta</h2>
-                <p class="card-text text-center">$550</p>
-                <a href="#" class="btn btn-primary">Agregar a mi carrito</a>
+                <h2 class="card-title ">torta de fruta</h2>
+                <p class="card-text ">$550</p>
+                <a href="#" class="classBootomTienda rounded-pill">Agregar a mi carrito</a>
               </div>
             </div>
             
           </article>
 
-          <article class="col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center p-5">
+          <article class="col-sm-12 col-md-6 col-lg-3 mainDetienda">
               
-            <div class="card text-center rounded-start border border-danger" style="width: 18rem;">
-              <img src="./img/Productos/torta violeta.jpg" alt="Producto" class="animationImg rounded-3">
+            <div class="card classBoxCard">
+              <img src="./img/Productos/torta violeta.jpg" alt="Producto" class="animationImg ">
               <div class="card-body">
-                <h2 class="card-title fs-5">Torta de frutas moradas</h2>
-                <p class="card-text text-center">$270</p>
-                <a href="#" class="btn btn-primary">Agregar a mi carrito</a>
+                <h2 class="card-title">Torta de frutas moradas</h2>
+                <p class="card-text ">$270</p>
+                <a href="#" class="classBootomTienda rounded-pill">Agregar a mi carrito</a>
               </div>
             </div>
             
           </article>
 
-          <article class="col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center p-5">
+          <article class="col-sm-12 col-md-6 col-lg-3 mainDetienda">
               
-            <div class="card text-center rounded-start border border-danger" style="width: 18rem;">
-              <img src="./img/Productos/masitassss.jpg" alt="Producto" class="animationImg rounded-3">
+            <div class="card classBoxCard">
+              <img src="./img/Productos/masitassss.jpg" alt="Producto" class="animationImg ">
               <div class="card-body">
-                <h2 class="card-title fs-5">Caja de masitas surtidas</h2>
-                <p class="card-text text-center">$900</p>
-                <a href="#" class="btn btn-primary">Agregar a mi carrito</a>
+                <h2 class="card-title ">Caja de masitas surtidas</h2>
+                <p class="card-text ">$900</p>
+                <a href="#" class="classBootomTienda rounded-pill">Agregar a mi carrito</a>
               </div>
             </div>
             
           </article>
 
-          <article class="col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center p-5">
+          <article class="col-sm-12 col-md-6 col-lg-3 mainDetienda">
               
-            <div class="card text-center rounded-start border border-danger" style="width: 18rem;">
-              <img src="./img/Productos/masitas.jpg" alt="Producto" class="animationImg rounded-3 rounded-3">
+            <div class="card classBoxCard">
+              <img src="./img/Productos/masitas.jpg" alt="Producto" class="animationImg ">
               <div class="card-body">
-                <h2 class="card-title fs-5">Caja de masitas surtidas</h2>
-                <p class="card-text text-center">$800</p>
-                <a href="#" class="btn btn-primary">Agregar a mi carrito</a>
+                <h2 class="card-title ">Caja de masitas surtidas</h2>
+                <p class="card-text ">$800</p>
+                <a href="#" class="classBootomTienda rounded-pill">Agregar a mi carrito</a>
               </div>
             </div>
             
           </article>
 
-          <article class="col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center p-5">
+          <article class="col-sm-12 col-md-6 col-lg-3 mainDetienda">
               
-            <div class="card text-center rounded-start border border-danger" style="width: 18rem;">
-              <img src="./img/Productos/tartas.jpg" alt="Producto" class="animationImg rounded-3">
+            <div class="card classBoxCard">
+              <img src="./img/Productos/tartas.jpg" alt="Producto" class="animationImg ">
               <div class="card-body">
-                <h2 class="card-title fs-5">Tartas variadas</h2>
-                <p class="card-text text-center">$300</p>
-                <a href="#" class="btn btn-primary">Agregar a mi carrito</a>
+                <h2 class="card-title ">Tartas variadas</h2>
+                <p class="card-text ">$300</p>
+                <a href="#" class="classBootomTienda rounded-pill">Agregar a mi carrito</a>
               </div>
             </div>
             
           </article>
 
-          <article class="col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center p-5">
+          <article class="col-sm-12 col-md-6 col-lg-3 mainDetienda">
               
-            <div class="card text-center rounded-start border border-danger" style="width: 18rem;">
-              <img src="./img/Productos/postres.jpg" alt="Producto" class="animationImg rounded-3">
+            <div class="card classBoxCard">
+              <img src="./img/Productos/postres.jpg" alt="Producto" class="animationImg ">
               <div class="card-body">
-                <h2 class="card-title fs-5">Postres Frutales</h2>
-                <p class="card-text text-center">$800</p>
-                <a href="#" class="btn btn-primary">Agregar a mi carrito</a>
+                <h2 class="card-title ">Postres Frutales</h2>
+                <p class="card-text ">$800</p>
+                <a href="#" class="classBootomTienda rounded-pill">Agregar a mi carrito</a>
               </div>
             </div>
             
           </article>
 
-          <article class="col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center p-5">
+          <article class="col-sm-12 col-md-6 col-lg-3 mainDetienda">
               
-            <div class="card text-center rounded-start border border-danger" style="width: 18rem;">
+            <div class="card classBoxCard">
               <img src="./img/Productos/123131231231313.jpg"  class="animationImg" alt="Pasteles de fondant">
               <div class="card-body">
-                <h2 class="card-title fs-5">Pasteles fondant</h2>
-                <p class="card-text text-center">$1100</p>
-                <a href="#" class="btn btn-primary">Agregar a mi carrito</a>
+                <h2 class="card-title">Pasteles fondant</h2>
+                <p class="card-text ">$1100</p>
+                <a href="#" class="classBootomTienda rounded-pill">Agregar a mi carrito</a>
               </div>
             </div>
             
@@ -368,49 +372,51 @@
 
        <!-- Aqui termina a la tienda   -->
 
-         <!-- aqui comienza el footer -->
-         <footer class=" text-center text-white">
-           <!-- Grid container -->
-           <div class="container p-4 pb-0">
-             <!-- Section: Social media -->
-             <section class="mb-4">
-               
-               <!-- Instagram -->
-               <a
-               class="btn text-white btn-floating m-1"
-               href="https://www.instagram.com/" target="_blank">
-                  <img src="./img/instagram fondant.png" alt="Seguinos En Instagram">
-                 </a> 
-                
-  
-              <!-- Twitter -->
-              <a
-              class="btn text-white btn-floating m-1"
-               href="https://twitter.com/home?lang=es" target="_blank">
-                 <img src="./img/twiter fondant.png" alt="Siguenos en twitter">
-                </a>
-             
-                
-              <!-- Facebook -->
-              <a
-                class="btn text-white btn-floating m-1"
-                 href="https://www.facebook.com/" target="_blank">
-                  <img src="./img/face fondant.png" alt="Siguenos en Facebook">
-               </a>
+         <!--  Aqui Comienza el footer  -->
+
+      <footer class=" footerClass">
+        <!-- Contenedor Grid -->
+        <div class="container p-4 pb-0">
+          <!-- Section: redes sociales  -->
+          <section>
+
+            <!-- Instagram -->
+            <a
+              class="btn btn-floating "
+              href="https://www.instagram.com/" target="_blank">
+                <img src="./img/instagram fondant.png" alt="Seguinos En Instagram">
+               </a> 
               
-            </section>
-            <!-- Section: Redes sociales -->
-          </div>
-          <!-- Grid container -->
+
+            <!-- Twitter -->
+            <a
+            class="btn btn-floating"
+             href="https://twitter.com/home?lang=es" target="_blank">
+               <img src="./img/twiter fondant.png" alt="Siguenos en twitter">
+              </a>
+           
+              
+            <!-- Facebook -->
+            <a
+              class="btn btn-floating"
+               href="https://www.facebook.com/" target="_blank">
+                <img src="./img/face fondant.png" alt="Siguenos en Facebook">
+             </a>
+            
+          </section>
+          <!-- Section: Redes sociales -->
+        </div>
+        <!-- contenedor Grid -->
+      
+        <!-- Copyright -->
+        <div class="footerClassSombreadocopy" >
+          © 2022 Copyright:
+          <a class="footerClassSombreadocopyLink" href="https://www.coderhouse.com.uy/" target="_blank">Coderhouse.com</a> 
+        </div>
+        <!-- Copyright -->
+      </footer>
         
-          <!-- Copyright -->
-          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-            © 2022 Copyright:
-            <a class="text-white" href="https://www.coderhouse.com.uy/" target="_blank">coderhouse.com</a> 
-          </div>
-          <!-- Copyright -->
-        </footer>
-        <!-- aqui termina el footer -->
+     <!--  Aqui Termina el footer  -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

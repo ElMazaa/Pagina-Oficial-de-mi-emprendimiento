@@ -410,7 +410,9 @@ ul li a:hover{
 
 .animationImg:hover{
     filter: opacity(10);
-    transform: scale(1.1);
+    transform: scale(1.2);
+    border-radius: 20%;
+
 
 }
 

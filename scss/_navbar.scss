@@ -1,0 +1,62 @@
+
+.navbarColor {
+    a{
+        color: $ColorFont;
+        font-family: 'Dancing Script';
+        font-weight: $textbold;
+        font-size: 2rem;
+        margin: 0.10rem;
+        
+        &:hover{
+            color: $secondaryColor;
+            
+        }
+
+    }
+
+        ul li  {
+
+            &:hover{
+                transform: rotateZ(-6deg);
+                transition: transform 0.2s;
+            }
+        }
+        
+}
+
+
+
+.navmarginAuto{
+  margin-right: auto;
+  margin-left: auto;
+   
+}
+
+
+.botonHamburgesa{
+    object-fit: cover;
+    width:80px;
+    height:auto;
+}
+
+
+.animationImg:hover{
+    filter: opacity(10);
+    transform: scale(1.2);
+    border-radius: 20%;
+
+}
+
+// animaciones para las ul a y para img 
+
+// ul li :hover{
+//     transform: rotateZ(-6deg);
+//     transition: transform 0.2s;
+// }
+
+
+// .navbarColor a:hover{
+//     color: $secondaryColor;
+      
+//  } 
+

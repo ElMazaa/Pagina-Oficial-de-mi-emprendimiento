@@ -1,0 +1,287 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+* {
+  font-family: "Dancing Script";
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.navbarColor a {
+  color: rgb(34, 33, 33);
+  font-family: "Dancing Script";
+  font-weight: 600;
+  font-size: 2rem;
+  margin: 0.1rem;
+}
+.navbarColor a:hover {
+  color: rgb(253, 141, 159);
+}
+.navbarColor ul li:hover {
+  transform: rotateZ(-6deg);
+  transition: transform 0.2s;
+}
+
+.navmarginAuto {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.botonHamburgesa {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 80px;
+  height: auto;
+}
+
+.animationImg:hover {
+  filter: opacity(10);
+  transform: scale(1.2);
+  border-radius: 20%;
+}
+
+.gridFoto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  transition: transform 0.4s ease-in-out;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.gridFoto:hover {
+  filter: opacity(10);
+  transform: scale(1.07);
+}
+
+#containerGridgaleria {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-auto-rows: minmax(200px, auto);
+  grid-auto-flow: dense;
+  gap: 10px;
+  padding: 20px;
+}
+
+@media (min-width: 600px) {
+  .fila {
+    grid-row: span 2;
+  }
+  .columna {
+    grid-column: span 2;
+  }
+  .columna3 {
+    grid-area: span 3;
+  }
+}
+.h1Headerindex {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 900;
+  font-family: "Dancing Script";
+}
+
+.iFrameIndex {
+  height: 20rem;
+  width: 100%;
+  text-align: center;
+}
+
+.classBootom {
+  text-align: center;
+  color: black;
+  padding: 0.5rem;
+  border: solid rgb(231, 114, 133) 0.2rem;
+  font-size: 1.2rem;
+  font-weight: 900;
+  background-color: rgba(255, 192, 203, 0.315);
+  text-decoration: none;
+  border-radius: 25%;
+}
+
+.classForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  border-radius: 1rem 0 0 1rem;
+}
+.classForm h5 {
+  font-size: 1.5rem;
+}
+.classForm img {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem 0 0 1rem;
+}
+.classForm a {
+  color: black;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+.classForm a:hover {
+  color: rgb(34, 33, 33);
+}
+
+.mainSobremi {
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+}
+
+.mainSobremiCenter {
+  justify-content: center;
+  text-align: center;
+}
+
+.containerSucursales {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.cajaLocal {
+  background-color: rgba(223, 140, 185, 0.596);
+  width: 100%;
+  border: solid;
+  margin-top: 5rem;
+  text-align: center;
+}
+.cajaLocal p {
+  font-weight: 900;
+  font-family: "Dancing Script";
+  font-size: 2.9rem;
+}
+
+.pCaja {
+  font-size: 4rem;
+  font-weight: 900;
+  font-family: "Dancing Script";
+}
+
+.hHorarios {
+  font-size: 3rem;
+  font-weight: 900;
+  font-family: "Dancing Script";
+}
+
+header img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 25rem;
+  height: 35rem;
+}
+
+.carruselConfig {
+  display: block;
+  width: 100%;
+  font-size: 2rem;
+}
+
+.cajaFiltros {
+  padding: 0.1rem;
+  border: solid rgb(231, 114, 133) 5px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  background-color: rgba(255, 192, 203, 0.315);
+}
+
+.asideConfigfiltros {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.asideConfigfiltrosF {
+  display: flex;
+  justify-content: center;
+}
+
+.mainDetienda {
+  display: block;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 3rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.classBootomTienda {
+  text-align: center;
+  color: black;
+  padding: 0.5rem;
+  border: solid rgb(231, 114, 133) 0.2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: rgba(255, 192, 203, 0.315);
+  text-decoration: none;
+}
+.classBootomTienda:hover {
+  color: rgb(34, 33, 33);
+}
+
+.classBoxCard {
+  background-color: rgba(248, 167, 181, 0.411);
+  width: 18rem;
+  height: auto;
+  border-radius: 8%;
+}
+
+.classBootomcontacto {
+  text-align: center;
+  color: black;
+  padding: 0.5rem;
+  border: solid rgb(231, 114, 133) 0.2rem;
+  font-size: 1.2rem;
+  font-weight: 900;
+  background-color: rgba(255, 192, 203, 0.315);
+  text-decoration: none;
+  border-radius: 26%;
+}
+
+.box {
+  font-family: "Dancing Script";
+  font-size: 1.8rem;
+}
+
+section {
+  font-size: system-ui;
+}
+
+h1 {
+  color: rgb(34, 33, 33);
+}
+
+.footerClass {
+  align-items: center;
+  text-align: center;
+  color: black;
+  font-size: 2rem;
+}
+.footerClass a img {
+  width: 5rem;
+  height: auto;
+}
+
+.footerClassSombreadocopy {
+  align-items: center;
+  text-align: center;
+  color: #3d3c3c;
+  font-size: 1.8rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: rgba(32, 32, 32, 0.2);
+  text-decoration: none;
+}
+.footerClassSombreadocopy a {
+  align-items: center;
+  text-align: center;
+  color: #3d3c3c;
+  font-size: 1.8rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-decoration: none;
+}
+.footerClassSombreadocopy a:hover {
+  color: rgb(253, 141, 159);
+}/*# sourceMappingURL=main.css.map */

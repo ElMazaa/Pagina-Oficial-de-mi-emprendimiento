@@ -1,0 +1,79 @@
+
+
+// Comienza la tienda 
+header  img{
+    object-fit: cover;
+    width: 25rem;
+    height: 35rem;
+    
+}
+
+
+//  Carrusel
+.carruselConfig{
+    display: block;
+    width: 100%;
+    font-size:2rem;
+
+}
+
+// filtros de la tienda
+.cajaFiltros{
+    padding: 0.1rem;
+    border: solid rgb(231, 114, 133) 5px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    background-color: rgba(255, 192, 203, 0.315);
+
+}
+.asideConfigfiltros{
+    margin-top: 3rem;
+    text-align: center;
+    
+}
+
+.asideConfigfiltrosF{
+    display: flex;
+    justify-content: center;
+}
+
+// configuracion de la tienda 
+
+.mainDetienda{
+    display: block;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 3rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.classBootomTienda{
+    text-align: center;
+    color: black;
+    padding: 0.5rem;
+    border: solid rgb(231, 114, 133) 0.20rem;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: rgba(255, 192, 203, 0.315);
+    text-decoration: none;
+
+    
+    &:hover{
+        color:$ColorFont;
+    } 
+    
+
+}
+
+// .classBootomTienda:hover{
+//     color:black;
+// }
+
+.classBoxCard{
+    background-color: rgba(248, 167, 181, 0.411) ;
+    width: 18rem;
+    height: auto;
+    border-radius:8% ;
+
+}

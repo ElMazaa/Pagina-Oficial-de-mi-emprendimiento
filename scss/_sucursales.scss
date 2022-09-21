@@ -1,44 +1,41 @@
 // sucursales page
 
 .containerSucursales{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+    
+  @include flex(flex, column ,center ,center );
    
 } 
 .cajaLocal{
   background-color: rgba(223, 140, 185, 0.596);
-  width: 100%;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
   border: solid;
   margin-top: 5rem;
   text-align: center;
           
           p{
-           font-weight: 900;
-           font-family: 'Dancing Script';
-          font-size: 2.9rem;
+            @include Textos(2.5rem,center,rgb(34, 33, 33),'Dancing Script');
+       
+            font-weight: $textMax;
+           
    
          }
 }
-// .cajaLocal p{
-//   font-weight: 900;
-//   font-family: 'Dancing Script';
-//   font-size: 2.9rem;
- 
-// }
+
 
 .pCaja{
-  font-size: 4rem;
-  font-weight: 900;
-  font-family: 'Dancing Script';
+  @include Textos(4rem,center,rgb(34, 33, 33),'Dancing Script');
+       
+  font-weight: $textbold;
   
 }
 
 .hHorarios{
-    font-size: 3rem;
-    font-weight: 900;
-    font-family: 'Dancing Script';
+  @include Textos(2.5rem,center,rgb(34, 33, 33),'Dancing Script');
+       
+  font-weight: $textMax;
+  text-decoration: overline rgb(0, 0, 0) 0.1rem;
 
 }
 

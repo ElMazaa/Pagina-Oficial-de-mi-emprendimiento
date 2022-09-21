@@ -140,32 +140,42 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
+  align-items: center;
 }
 
 .cajaLocal {
   background-color: rgba(223, 140, 185, 0.596);
-  width: 100%;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
   border: solid;
   margin-top: 5rem;
   text-align: center;
 }
 .cajaLocal p {
-  font-weight: 900;
+  font-size: 2.5rem;
+  text-align: center;
+  color: rgb(34, 33, 33);
   font-family: "Dancing Script";
-  font-size: 2.9rem;
+  font-weight: 900;
 }
 
 .pCaja {
   font-size: 4rem;
-  font-weight: 900;
+  text-align: center;
+  color: rgb(34, 33, 33);
   font-family: "Dancing Script";
+  font-weight: 600;
 }
 
 .hHorarios {
-  font-size: 3rem;
-  font-weight: 900;
+  font-size: 2.5rem;
+  text-align: center;
+  color: rgb(34, 33, 33);
   font-family: "Dancing Script";
+  font-weight: 900;
+  -webkit-text-decoration: overline rgb(0, 0, 0) 0.1rem;
+          text-decoration: overline rgb(0, 0, 0) 0.1rem;
 }
 
 header img {

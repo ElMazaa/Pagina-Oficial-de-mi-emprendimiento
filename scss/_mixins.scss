@@ -28,22 +28,22 @@
 }
 
 
-//    @include Textos(1em,2.2em ,black )
+//    @include Textos(1em,2.2em ,black );
 
 
 
 
-@mixin flex ($dire, $justify, $align, $wrap){
+@mixin flex ($flex,$dire,$justify,$align){
 
-    display: flex;
+    display: $flex;
     flex-direction: $dire;
     justify-content: $justify;
     align-items: $align;
-    flex-wrap: $wrap;
+
 }
 
 
-//     @include flex(row, center ,flex-end ,nowrap )
+//     @include flex(row, center ,flex-end ,nowrap );
 
 
 //Maps 

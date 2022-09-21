@@ -54,10 +54,12 @@
 // configuracion de el mapa y de imagen  de el index
 
 .h1Headerindex{
-    text-align: center;
-    font-size: 4rem;
-    font-weight: 900;
-    font-family: 'Dancing Script';
+         
+     @include Textos(4rem,center,rgb(34, 33, 33),'Dancing Script');
+       
+     font-weight: $textbold;
+    
+
 }
 
 .iFrameIndex{

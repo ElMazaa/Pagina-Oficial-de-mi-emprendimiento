@@ -18,21 +18,19 @@
 
 // Mixins
 
-@mixin Textos($size,$interlineado,$color){
+@mixin Textos($size,$center,$color,$font){
 
     font-size: $size; 
-    line-height: $interlineado;
+    text-align: $center;
     color:$color;
-    margin: 10px 30px;
-    padding: 10px;
-    font-family: "Dancing Script";
+    font-family: $font;
 
 }
 
-// p{
+
 //    @include Textos(1em,2.2em ,black )
 
-// }
+
 
 
 @mixin flex ($dire, $justify, $align, $wrap){
@@ -44,9 +42,9 @@
     flex-wrap: $wrap;
 }
 
-// .box{
+
 //     @include flex(row, center ,flex-end ,nowrap )
-// }
+
 
 //Maps 
 

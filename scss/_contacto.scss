@@ -1,16 +1,10 @@
 //  formulario de contacto
 .classBootomcontacto{
-    text-align: center;
-    color: black;
-    padding: 0.5rem;
-    border: solid rgb(231, 114, 133) 0.20rem;
-    font-size: 1.2rem;
-    font-weight: 900;
-    background-color: rgba(255, 192, 203, 0.315);
-    text-decoration: none;
-    border-radius:26%
+    @extend .botonForms;
+    border-radius: 29%;
 
 }
+
 // clases compartidas con la page  log in
 // .imgResponsiveForm{
 //     width: 100% ;

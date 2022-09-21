@@ -1,4 +1,9 @@
 
+.navbarColor{
+    background-color: map-get($map: $paleta , $key:transparent );
+}
+
+
 .navbarColor {
     a{
         color: $ColorFont;

@@ -23,7 +23,7 @@ header  img{
     border: solid rgb(231, 114, 133) 5px;
     font-size: 1.5rem;
     font-weight: 600;
-    background-color: rgba(255, 192, 203, 0.315);
+    background-color: map-get($map: $paleta , $key:color11 );
 
 }
 .asideConfigfiltros{
@@ -55,7 +55,7 @@ header  img{
     border: solid rgb(231, 114, 133) 0.20rem;
     font-size: 1rem;
     font-weight: 600;
-    background-color: rgba(255, 192, 203, 0.315);
+    background-color: map-get($map: $paleta , $key:color11 );
     text-decoration: none;
 
     
@@ -71,9 +71,11 @@ header  img{
 // }
 
 .classBoxCard{
-    background-color: rgba(248, 167, 181, 0.411) ;
+    background-color: map-get($map: $paleta , $key:color12 );
     width: 18rem;
     height: auto;
     border-radius:8% ;
 
 }
+
+

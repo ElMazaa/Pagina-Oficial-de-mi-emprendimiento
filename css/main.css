@@ -6,6 +6,19 @@
   list-style: none;
 }
 
+.box {
+  font-family: "Dancing Script";
+  font-size: 1.8rem;
+}
+
+section {
+  font-size: system-ui;
+}
+
+h1 {
+  color: rgb(34, 33, 33);
+}
+
 .botonForms, .classBootomcontacto, .classBootom {
   text-align: center;
   color: black;
@@ -107,8 +120,9 @@
   font-size: 1.5rem;
   font-weight: 500;
   border-radius: 1rem 0 0 1rem;
+  margin-top: 1rem;
 }
-.classForm h5 {
+.classForm h2 {
   font-size: 1.5rem;
 }
 .classForm img {
@@ -128,12 +142,48 @@
 .mainSobremi {
   display: flex;
   justify-content: center;
-  padding-top: 3rem;
+  padding-top: 1rem;
 }
 
 .mainSobremiCenter {
   justify-content: center;
   text-align: center;
+  box-shadow: 20px 20px 10px rgba(253, 141, 160, 0.589);
+  background-color: rgba(250, 190, 182, 0.9333333333);
+  border-radius: 5rem;
+  font-size: 1.5rem;
+}
+.mainSobremiCenter img {
+  width: 100%;
+  height: auto;
+}
+
+.mainPrincipalSobremi {
+  justify-content: center;
+  text-align: center;
+  width: 55rem;
+  height: auto;
+  box-shadow: 20px 20px 10px rgba(253, 141, 160, 0.589);
+  background-color: rgba(250, 190, 182, 0.9333333333);
+  border-radius: 5rem;
+  font-size: 1.5rem;
+}
+.mainPrincipalSobremi img {
+  border-radius: 5rem;
+}
+
+.headerh1 h1 {
+  font-size: 3rem;
+  text-align: center;
+  color: rgb(34, 33, 33);
+  font-family: "Dancing Script";
+  font-weight: 600;
+  padding-top: 0rem;
+}
+
+.parrafoBox {
+  color: black;
+  font-weight: 600;
 }
 
 .containerSucursales {
@@ -141,6 +191,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.headerh1 {
+  font-size: 4rem;
+  text-align: center;
+  color: rgb(34, 33, 33);
+  font-family: "Dancing Script";
+  font-weight: 600;
 }
 
 .cajaLocal {
@@ -186,9 +244,24 @@ header img {
 }
 
 .carruselConfig {
+  font-size: 2rem;
+}
+.carruselConfig img {
+  margin-top: 1rem;
   display: block;
   width: 100%;
-  font-size: 2rem;
+  margin-right: auto;
+  margin-left: auto;
+  border: solid rgb(253, 141, 159) 0.01rem;
+  color: black;
+}
+.carruselConfig .headerh1 {
+  font-size: 1rem;
+  text-align: center;
+  color: rgb(34, 33, 33);
+  font-family: "Dancing Script";
+  font-weight: 600;
+  padding-top: 1rem;
 }
 
 .cajaFiltros {
@@ -244,17 +317,48 @@ header img {
   border-radius: 29%;
 }
 
-.box {
-  font-family: "Dancing Script";
-  font-size: 1.8rem;
-}
-
-section {
-  font-size: system-ui;
-}
-
-h1 {
+.headerh1 {
+  font-size: 3rem;
+  text-align: center;
   color: rgb(34, 33, 33);
+  font-family: "Dancing Script";
+  font-weight: 600;
+  padding-top: 2rem;
+}
+
+.sectionCarrito {
+  background-color: rgba(255, 192, 203, 0.486);
+  width: 75%;
+  height: 20vh;
+  margin-right: auto;
+  margin-left: auto;
+  border: solid pink 0.5rem;
+  box-shadow: 20px 20px 10px rgba(253, 141, 160, 0.589);
+}
+
+.sectionCarrito1, .sectionCarrito2 {
+  background-color: rgba(255, 192, 203, 0.486);
+  width: 50%;
+  height: 30vh;
+  margin-right: auto;
+  margin-left: auto;
+  border: solid pink 0.5rem;
+  box-shadow: 20px 20px 10px rgba(253, 141, 160, 0.589);
+}
+.sectionCarrito1 p, .sectionCarrito2 p {
+  padding-top: 1rem;
+  font-size: calc(1rem + 2vw);
+  font-weight: 900;
+}
+
+.sectionCarrito2 {
+  width: 30%;
+  height: 18vh;
+}
+.sectionCarrito2 p {
+  padding-top: 3rem;
+  font-size: calc(1em + 2vw);
+  font-weight: 900;
 }
 
 .footerClass {

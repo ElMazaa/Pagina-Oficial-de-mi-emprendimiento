@@ -3,13 +3,61 @@
 .mainSobremi{
     display: flex;
     justify-content: center;
-    padding-top: 3rem;
- 
+    padding-top: 1rem;
     
+   
+
 }
+
+
 
 .mainSobremiCenter {
     justify-content: center;
     text-align: center;
-     
+    box-shadow: 20px 20px 10px $backgroundColorBox;
+    background-color: map-get($map: $paleta , $key:color13 );
+    border-radius: 5rem;
+    font-size: 1.5rem;
+
+    img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+.mainPrincipalSobremi{
+    justify-content: center;
+    text-align: center;
+    width: 55rem;
+    height: auto;
+    box-shadow: 20px 20px 10px $backgroundColorBox;
+    background-color: map-get($map: $paleta , $key:color13 );
+    border-radius: 5rem;
+    font-size: 1.5rem;
+
+    img{
+        border-radius: 5rem;
+    }
+
+
+}
+
+.headerh1{
+         h1{
+
+             @include Textos(3rem,center,rgb(34, 33, 33),'Dancing Script');
+             
+             font-weight: $textbold;
+             padding-top: 0rem;
+            }
+   
+
+}
+
+.parrafoBox{
+
+    color: black;  
+    font-weight:$textbold;
+
 }

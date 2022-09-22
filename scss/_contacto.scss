@@ -5,6 +5,15 @@
 
 }
 
+
+.headerh1{
+
+    @include Textos(3rem,center,rgb(34, 33, 33),'Dancing Script');
+    
+    font-weight: $textbold;
+    padding-top: 2rem;
+  
+}
 // clases compartidas con la page  log in
 // .imgResponsiveForm{
 //     width: 100% ;

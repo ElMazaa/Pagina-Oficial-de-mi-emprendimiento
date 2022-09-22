@@ -2,9 +2,20 @@
 
 .containerSucursales{
     
-  @include flex(flex, column ,center ,center );
+  @include flex (flex, column ,center ,center );
    
+
 } 
+
+.headerh1{
+
+  @include Textos(4rem,center,rgb(34, 33, 33),'Dancing Script');
+  
+  font-weight: $textbold;
+  
+
+}
+
 .cajaLocal{
   background-color: rgba(223, 140, 185, 0.596);
   width: 90%;

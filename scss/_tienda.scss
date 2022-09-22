@@ -6,15 +6,36 @@ header  img{
     width: 25rem;
     height: 35rem;
     
+    
+    
 }
 
 
 //  Carrusel
 .carruselConfig{
-    display: block;
-    width: 100%;
-    font-size:2rem;
 
+
+        font-size:2rem ;
+
+    img{
+        margin-top: 1rem;
+        display: block;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        border: solid $secondaryColor 0.01rem;
+        color: black;
+    }
+
+
+    .headerh1{
+
+            @include Textos(1rem,center,rgb(34, 33, 33),'Dancing Script');
+            
+            font-weight: $textbold;
+            padding-top: 1rem;
+          
+    }
 }
 
 // filtros de la tienda
@@ -60,15 +81,13 @@ header  img{
 
     
     &:hover{
-        color:$ColorFont;
+        color:$colorFont;
     } 
     
 
 }
 
-// .classBootomTienda:hover{
-//     color:black;
-// }
+
 
 .classBoxCard{
     background-color: map-get($map: $paleta , $key:color12 );

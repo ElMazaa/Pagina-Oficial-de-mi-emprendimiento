@@ -1,8 +1,9 @@
 // General para las paginas Variables
 
 $mainColor: pink;
-$ColorFont:rgb(34, 33, 33);
+$colorFont:rgb(34, 33, 33);
 $secondaryColor: rgb(253, 141, 159);
+$backgroundColorBox: rgba(253, 141, 160, 0.589);
 
 
 
@@ -12,5 +13,6 @@ $secondaryColor: rgb(253, 141, 159);
     padding: 0;
     margin: 0;
     list-style: none;
+    
 }
 

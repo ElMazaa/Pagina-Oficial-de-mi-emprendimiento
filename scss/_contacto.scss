@@ -3,8 +3,15 @@
     @extend .botonForms;
     border-radius: 29%;
 
+
 }
 
+.card1 {
+    @extend .card;
+    background-color: transparent;
+    border-radius: 2%;
+
+}
 
 .headerh1{
 

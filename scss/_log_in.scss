@@ -14,6 +14,9 @@
     font-weight: 500;
     border-radius: 1rem 0 0 1rem;
     margin-top: 1rem;
+    background-color: transparent ;
+    
+    
     
     
     h2{
@@ -36,6 +39,12 @@
         &:hover{
             color: $colorFont;
         }
-    }
-        
+    }  
 }
+
+.card1 {
+    @extend .card;
+    border-radius: 2% ;
+
+}
+

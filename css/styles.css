@@ -116,12 +116,8 @@ header  img{
 
 /*Carrusel*/
 .carruselConfig{
-    img{
-
-        
-        width: 100%;
-        font-size:2rem;
-    }
+  width: 100%;
+  font-size:2rem; 
 
 }
 

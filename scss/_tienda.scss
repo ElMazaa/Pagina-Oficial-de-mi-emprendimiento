@@ -45,11 +45,18 @@ header  img{
     font-size: 1.5rem;
     font-weight: 600;
     background-color: map-get($map: $paleta , $key:color11 );
+    color: $colorFont;
+    
 
 }
 .asideConfigfiltros{
     margin-top: 3rem;
     text-align: center;
+
+        a{
+            text-decoration: none;
+            color: $colorFont;
+        }
     
 }
 
@@ -98,3 +105,13 @@ header  img{
 }
 
 
+.error404{
+    @extend .asideConfigfiltrosF;
+
+     img{
+        width: 60%; 
+        min-width: 300px;
+        height: auto;
+        
+     }
+}

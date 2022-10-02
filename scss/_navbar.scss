@@ -12,6 +12,8 @@
         font-size: 2rem;
         margin: 0.10rem;
         
+        
+        
         &:hover{
             color: $secondaryColor;
             
@@ -20,7 +22,7 @@
     }
 
         ul li  {
-
+           
             &:hover{
                 transform: rotateZ(-6deg);
                 transition: transform 0.2s;

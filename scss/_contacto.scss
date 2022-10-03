@@ -1,0 +1,25 @@
+//  formulario de contacto
+.classBootomcontacto{
+    @extend .botonForms;
+    border-radius: 29%;
+
+
+}
+
+.card1 {
+    @extend .card;
+    background-color: transparent;
+    border-radius: 2%;
+
+}
+
+.headerh1{
+
+    @include Textos(3rem,center,rgb(34, 33, 33),'Dancing Script');
+    
+    font-weight: $textbold;
+    padding-top: 2rem;
+  
+}
+
+

@@ -1,0 +1,76 @@
+// Extend
+
+.botonForms{
+    text-align: center;
+    color: black;
+    padding: 0.5rem;
+    border: solid rgb(231, 114, 133) 0.20rem;
+    font-size: 1.2rem;
+    font-weight: 900;
+    background-color: rgba(255, 192, 203, 0.315);
+    text-decoration: none;
+    border-radius:25%
+
+}
+
+
+
+
+// Mixins
+
+@mixin Textos($size,$center,$color,$font){
+
+    font-size: $size; 
+    text-align: $center;
+    color:$color;
+    font-family: $font;
+
+}
+
+
+//    @include Textos(1em,2.2em ,black );
+
+
+
+
+@mixin flex ($flex,$dire,$justify,$align){
+
+    display: $flex;
+    flex-direction: $dire;
+    justify-content: $justify;
+    align-items: $align;
+
+}
+
+
+//     @include flex(row, center ,flex-end ,nowrap );
+
+
+//Maps 
+
+//Paleta de colores
+
+$paleta:(
+    "transparent": transparent,
+    "color1": #140e06,
+    "color2": #4e3f1a,
+    "color3": #518dff,
+    "color4": #ffd3f4,
+    "color5": #fffbf4,
+    "color6": #20a4d8,
+    "color7":rgba(253, 141, 160, 0.589),
+    "color8": #f6b5ab,
+    "color9":#f4eb98,
+    "color10": #c0efec,
+    "color11": rgba(255, 192, 203, 0.315),
+    "color12": rgba(248, 167, 181, 0.411),
+    "color13" : #fabeb6ee,
+);
+
+
+
+
+
+
+
+

@@ -1,0 +1,52 @@
+// sucursales page
+
+.containerSucursales{
+    
+  @include flex (flex, column ,center ,center );
+   
+
+} 
+
+.headerh1{
+
+  @include Textos(4rem,center,rgb(34, 33, 33),'Dancing Script');
+  
+  font-weight: $textbold;
+  
+
+}
+
+.cajaLocal{
+  background-color: rgba(223, 140, 185, 0.596);
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  border: solid;
+  margin-top: 5rem;
+  text-align: center;
+          
+          p{
+            @include Textos(2.5rem,center,rgb(34, 33, 33),'Dancing Script');
+       
+            font-weight: $textMax;
+           
+   
+         }
+}
+
+
+.pCaja{
+  @include Textos(4rem,center,rgb(34, 33, 33),'Dancing Script');
+       
+  font-weight: $textbold;
+  
+}
+
+.hHorarios{
+  @include Textos(2.5rem,center,rgb(34, 33, 33),'Dancing Script');
+       
+  font-weight: $textMax;
+  text-decoration: overline rgb(0, 0, 0) 0.1rem;
+
+}
+

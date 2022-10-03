@@ -1,0 +1,50 @@
+.classBootom{
+    @extend .botonForms;
+    
+
+}
+
+
+
+.classForm{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-size: 1.5rem; 
+    font-weight: 500;
+    border-radius: 1rem 0 0 1rem;
+    margin-top: 1rem;
+    background-color: transparent ;
+    
+    
+    
+    
+    h2{
+        font-size: 1.5rem;
+    }
+        
+    img {
+        width: 100% ;
+        height: 100%;
+        border-radius: 1rem 0 0 1rem;
+       
+     }
+     
+     a{
+        color: black;
+        text-decoration: none;
+        font-size: 1.5rem;
+        
+        
+        &:hover{
+            color: $colorFont;
+        }
+    }  
+}
+
+.card1 {
+    @extend .card;
+    border-radius: 2% ;
+
+}
+

@@ -1,0 +1,117 @@
+
+
+// Comienza la tienda 
+header  img{
+    object-fit: cover;
+    width: 25rem;
+    height: 35rem;
+    
+    
+    
+}
+
+
+//  Carrusel
+.carruselConfig{
+
+
+        font-size:2rem ;
+
+    img{
+        margin-top: 1rem;
+        display: block;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        border: solid $secondaryColor 0.01rem;
+        color: black;
+    }
+
+
+    .headerh1{
+
+            @include Textos(1rem,center,rgb(34, 33, 33),'Dancing Script');
+            
+            font-weight: $textbold;
+            padding-top: 1rem;
+          
+    }
+}
+
+// filtros de la tienda
+.cajaFiltros{
+    padding: 0.1rem;
+    border: solid rgb(231, 114, 133) 5px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    background-color: map-get($map: $paleta , $key:color11 );
+    color: $colorFont;
+    
+
+}
+.asideConfigfiltros{
+    margin-top: 3rem;
+    text-align: center;
+
+        a{
+            text-decoration: none;
+            color: $colorFont;
+        }
+    
+}
+
+.asideConfigfiltrosF{
+    display: flex;
+    justify-content: center;
+}
+
+// configuracion de la tienda 
+
+.mainDetienda{
+    display: block;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 3rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.classBootomTienda{
+    text-align: center;
+    color: black;
+    padding: 0.5rem;
+    border: solid rgb(231, 114, 133) 0.20rem;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: map-get($map: $paleta , $key:color11 );
+    text-decoration: none;
+
+    
+    &:hover{
+        color:$colorFont;
+    } 
+    
+
+}
+
+
+
+.classBoxCard{
+    background-color: map-get($map: $paleta , $key:color12 );
+    width: 18rem;
+    height: auto;
+    border-radius:8% ;
+
+}
+
+
+.error404{
+    @extend .asideConfigfiltrosF;
+
+     img{
+        width: 60%; 
+        min-width: 300px;
+        height: auto;
+        
+     }
+}

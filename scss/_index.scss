@@ -1,0 +1,68 @@
+// galeria de fotos index
+.gridFoto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    transition: transform 0.4s ease-in-out;
+  
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    &:hover{
+        filter: opacity(10);
+        transform: scale(1.07);
+    }
+
+}
+
+
+
+
+#containerGridgaleria{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: minmax(200px, auto);
+    grid-auto-flow: dense;
+    gap: 10px;
+    padding: 20px;
+    
+}
+
+// media de la pagina index que se encuentra dentro de la galeria
+
+ @media (min-width: 600px){ 
+    
+    .fila{
+        grid-row: span 2;
+    }
+    
+    .columna{
+       grid-column: span 2; 
+     }
+    
+     .columna3{
+        grid-area: span 3;
+     }
+ 
+} 
+
+// configuracion de el mapa y de imagen  de el index
+
+.h1Headerindex{
+         
+     @include Textos(4rem,center,rgb(34, 33, 33),'Dancing Script');
+       
+     font-weight: $textbold;
+    
+
+}
+
+.iFrameIndex{
+    height:20rem;
+    width: 100%;
+    text-align: center;
+    
+} 
+

@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+*{
+    font-family: 'Dancing Script';
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+
+/* Comienza configuracion de la nav-bar*/
+
+
+ .navbarColor a{
+    color: black;
+    font-family: 'Dancing Script';
+    font-weight: 600;
+    font-size: 2rem;
+    margin: 0.10rem;
+}
+
+.navmarginAuto{
+  margin-right: auto;
+  margin-left: auto;
+   
+}
+
+
+
+.botonHamburgesa{
+    object-fit: cover;
+    width:80px;
+    height:auto;
+}
+
+/* Termina configuracion de la nav-bar*/
+/*Aqui empieza mi galerai de fotos de el index*/
+.gridFoto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    transition: transform 0.4s ease-in-out;
+  
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.gridFoto:hover{
+    filter: opacity(10);
+    transform: scale(1.07);
+}
+
+#containerGridgaleria{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: minmax(200px, auto);
+    grid-auto-flow: dense;
+    gap: 10px;
+    padding: 20px;
+    
+}
+
+
+/* media de la pagina index que se encuentra dentro de la galeria*/
+ @media (min-width: 600px){ 
+    
+    .fila{
+        grid-row: span 2;
+    }
+    
+    .columna{
+       grid-column: span 2; 
+     }
+    
+     .columna3{
+        grid-area: span 3;
+     }
+ 
+} 
+
+/*Aqui termina mi galerai de fotos de el index*/
+
+
+
+/* Aqui comienza la pagina Sobre mi */
+
+.mainSobremi{
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+ 
+}
+
+.mainSobremiCenter {
+    justify-content: center;
+    text-align: center;
+     
+}
+
+/* Aqui termina la pagina Sobre mi */
+
+
+/* comienza la tienda */
+
+/*img de el carrusel */
+header  img{
+    object-fit: cover;
+    width: 25rem;
+    height: 35rem;
+    
+}
+/*img de el carrusel fin*/
+
+/*Carrusel*/
+.carruselConfig{
+  width: 100%;
+  font-size:2rem; 
+
+}
+
+/* Filtros de la tienda*/
+.cajaFiltros{
+    padding: 0.1rem;
+    border: solid rgb(231, 114, 133) 5px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    background-color: rgba(255, 192, 203, 0.315);
+
+}
+.asideConfigfiltros{
+    margin-top: 3rem;
+    text-align: center;
+    
+}
+
+.asideConfigfiltrosF{
+    display: flex;
+    justify-content: center;
+}
+/* fin de los filtros de la tienda */
+
+/* Comienza configuraciones de la tienda */
+
+.mainDetienda{
+    display: block;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 3rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.classBootomTienda{
+    text-align: center;
+    color: black;
+    padding: 0.5rem;
+    border: solid rgb(231, 114, 133) 0.20rem;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: rgba(255, 192, 203, 0.315);
+    text-decoration: none;
+    
+}
+.classBootomTienda:hover{
+    color:black;
+}
+
+.classBoxCard{
+    background-color: rgba(248, 167, 181, 0.411) ;
+    width: 18rem;
+    height: auto;
+    border-radius:8% ;
+
+}
+
+/* Fin de la tienda */
+
+/* Inicia contacto pagina (formulario) */
+
+.classBootom{
+    text-align: center;
+    color: black;
+    padding: 0.5rem;
+    border: solid rgb(231, 114, 133) 0.20rem;
+    font-size: 1.2rem;
+    font-weight: 900;
+    background-color: rgba(255, 192, 203, 0.315);
+    text-decoration: none;
+    border-radius:25%
+
+}
+
+.imgResponsiveForm{
+    width: 100% ;
+    height: 100%;
+    border-radius: 1rem 0 0 1rem;
+}
+
+.classForm{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-size: 1.4rem; 
+    font-weight: 500;
+    border-radius: 1rem 0 0 1rem;
+}
+
+.borderForm{
+    border-radius: 3%;
+}
+
+/* Termina contacto pagina (formulario) */
+
+
+/* Sucursales page */
+
+.containerSucursales{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+   
+} 
+.cajaLocal{
+  background-color: rgba(223, 140, 185, 0.596);
+  width: 100%;
+  border: solid;
+  margin-top: 5rem;
+  text-align: center;
+}
+.cajaLocal p{
+  font-weight: 900;
+  font-family: 'Dancing Script';
+  font-size: 2.9rem;
+ 
+}
+
+.pCaja{
+  font-size: 4rem;
+  font-weight: 900;
+  font-family: 'Dancing Script';
+  
+}
+
+.hHorarios{
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: 'Dancing Script';
+
+}
+/* fin de Sucursales page */
+
+
+/* inicia Login pagina  */
+
+.classBootom{
+    text-align: center;
+    color: black;
+    padding: 0.5rem;
+    border: solid rgb(231, 114, 133) 0.20rem;
+    font-size: 1.2rem;
+    font-weight: 900;
+    background-color: rgba(255, 192, 203, 0.315);
+    text-decoration: none;
+    border-radius:25%
+
+}
+
+.imgResponsiveForm{
+    width: 100% ;
+    height: 100%;
+    border-radius: 1rem 0 0 1rem;
+}
+
+.classForm{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-size: 1.5rem; 
+    font-weight: 500;
+    border-radius: 1rem 0 0 1rem;
+}
+
+.borderForm{
+    border-radius: 3%;
+}
+
+.colorLink{
+    color: #535252;
+    text-decoration: none;
+}
+
+.colorLink:hover{
+    color: rgb(253, 141, 159);
+}
+
+.classFs{
+    font-size: 1.5rem;
+}
+
+
+/* Termina Login pagina  */
+
+/*Configuracion de h1 de el index*/
+/*mapa de local principal de el index*/
+
+.h1Headerindex{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 900;
+    font-family: 'Dancing Script';
+}
+
+.iFrameIndex{
+    height:20rem;
+    width: 100%;
+    text-align: center;
+    
+} 
+
+/*Fin de el mapa de local principal de el index*/
+
+/* Inicio de el Footer */
+
+.footerClass{
+    align-items: center;
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+    
+}
+
+.footerClassSombreadocopy{
+    align-items: center;
+    text-align: center;
+    color: 	#3d3c3c;
+    font-size: 1.8rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgba(32, 32, 32, 0.2);
+    text-decoration: none;
+}
+.footerClassSombreadocopyLink{
+    align-items: center;
+    text-align: center;
+    color: 	#3d3c3c;
+    font-size: 1.8rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+
+}
+
+.footerClassSombreadocopyLink:hover{
+    color: 	#3d3c3c;
+}
+
+.footerClass a img{
+    width: 5rem;
+    height: auto;
+}
+
+
+
+/*fin de Footer */
+
+
+
+/* Animacion d eletras en el index*/
+
+/* .h1Headerindex{
+    flex-wrap: wrap;
+    display: block;
+    font-size: 4rem;
+    font-weight: 200;
+    font-family: 'Dancing Script';
+    white-space: nowrap;
+    margin: 0 auto;
+    width: 29ch;
+
+animation: typing 3s steps(29), blink .10s infinite step-end alternate;
+overflow:hidden;
+}
+
+@keyFrames typing {
+
+from { width: 0}
+}
+
+@keyFrames blink {
+ 100% { border-color: transparent}
+
+} */
+
+/*fin de animaciones de el index por que me cortan el responsive */
+
+
+
+
+ 
+
+/* animaciones */
+
+ul li a:hover{
+    transform: rotateZ(-6deg);
+    transition: transform 0.2s;
+}
+
+.animationImg:hover{
+    filter: opacity(10);
+    transform: scale(1.2);
+    border-radius: 20%;
+
+
+}
+
+.navbarColor a:hover{
+    color: rgb(253, 141, 159);
+      
+ } 
+
+/*Aqui comienza el carrito de compras */
+
+
+
+

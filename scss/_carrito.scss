@@ -1,0 +1,41 @@
+.sectionCarrito{
+    background-color: rgba(255, 192, 203, 0.486);
+    width: 75%;
+    height: 20vh;
+    margin-right: auto;
+    margin-left: auto;
+    border:solid pink 0.5rem ;
+    box-shadow: 20px 20px 10px $backgroundColorBox;
+    
+}
+
+.sectionCarrito1{
+    background-color: rgba(255, 192, 203, 0.486);
+    width: 50%;
+    height: 30vh;
+    margin-right: auto;
+    margin-left: auto;
+    border:solid pink 0.5rem ;
+    box-shadow: 20px 20px 10px $backgroundColorBox;
+
+    p{
+        padding-top: 1rem;
+        font-size: calc(1rem + 2vw);
+        font-weight: $textMax;
+    }
+}
+
+.sectionCarrito2{
+    @extend .sectionCarrito1;
+    width: 30%;
+    height: 18vh;
+    
+    p{
+        padding-top: 3rem;
+        font-size: calc(1em + 2vw);
+        font-weight: $textMax;
+    }
+
+
+    
+}

@@ -1,0 +1,20 @@
+User-Agent: *
+
+Disallow: /bocetos
+
+User-Agent: Googlebot-Image
+Disallow: /fuentes
+
+User-Agent: Googlebot
+Disallow: /fuentes
+
+User-Agent: Googlebot
+Disallow: /webmail
+
+User-Agent: Googlebot
+Disallow: /asd.php
+
+User-Agent: Googlebot
+Disallow: /webmail
+
+

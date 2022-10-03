@@ -1,0 +1,53 @@
+
+.navbarColor{
+    background-color: map-get($map: $paleta , $key:transparent );
+}
+
+
+.navbarColor {
+    a{
+        color: $colorFont;
+        font-family: 'Dancing Script';
+        font-weight: $textbold;
+        font-size: 2rem;
+        margin: 0.10rem;
+        
+        
+        
+        &:hover{
+            color: $secondaryColor;
+            
+        }
+
+    }
+
+        ul li  {
+           
+            &:hover{
+                transform: rotateZ(-6deg);
+                transition: transform 0.2s;
+            }
+        }
+        
+}
+
+
+
+.navmarginAuto{
+  margin-right: auto;
+  margin-left: auto;
+   
+}
+
+
+.botonHamburgesa{
+    object-fit: cover;
+    width:80px;
+    height:auto;
+}
+
+
+
+
+
+

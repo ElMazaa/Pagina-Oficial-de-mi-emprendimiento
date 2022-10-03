@@ -23,6 +23,6 @@ Visual Studio Code: https://code.visualstudio.com/download
 
 También se usó la extensión (Live Sass Compiler) de Visual Studio Code para usar Sass  en el proyecto. 
 
-# autor y creador de la página.
+# Autor y creador de la página.
 
 Santiago Espíndola

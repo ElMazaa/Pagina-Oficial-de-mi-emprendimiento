@@ -48,6 +48,11 @@ header  img{
     color: $colorFont;
     
 
+    &:hover{
+        filter: opacity(10);
+        transform: scale(1.07);
+    }
+
 }
 .asideConfigfiltros{
     margin-top: 3rem;

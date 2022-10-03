@@ -273,6 +273,10 @@ header img {
   background-color: rgba(255, 192, 203, 0.315);
   color: rgb(34, 33, 33);
 }
+.cajaFiltros:hover {
+  filter: opacity(10);
+  transform: scale(1.07);
+}
 
 .asideConfigfiltros {
   margin-top: 3rem;
@@ -4278,9 +4282,9 @@ textarea.form-control-lg {
   padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
   font-size: var(--bs-navbar-toggler-font-size);
   line-height: 1;
-  color: transparent;
+  color: var(--bs-navbar-color);
   background-color: transparent;
-  border: transparent;
+  border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
   border-radius: var(--bs-navbar-toggler-border-radius);
   transition: var(--bs-navbar-toggler-transition);
 }

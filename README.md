@@ -1,6 +1,6 @@
 # Pagina-Oficial-de-mi-emprendimiento "Pastelería Torres"
 
-# links importantes del proyecto
+# links importantes del proyecto:
 
 ##### link del repositorio de git: https://github.com/ElMazaa/Pagina-Oficial-de-mi-emprendimiento
 

@@ -4,7 +4,7 @@
 
 ##### link del repositorio de git: https://github.com/ElMazaa/Pagina-Oficial-de-mi-emprendimiento
 
-##### link del servidor: https://pasteleriatorres.netlify.app/
+##### link del servidor: https://pasteleriatorres.netlify.app/tienda
 
 ##### link de page-git: https://elmazaa.github.io/Pagina-Oficial-de-mi-emprendimiento/
 
